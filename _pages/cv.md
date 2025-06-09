@@ -20,7 +20,7 @@ Research & Internship
   * Conducting research on multimodal learning and cross-modal retrieval under the supervision of Prof. Jihong Guan and Assoc. Prof. Wengen Li.
 * Sora Model Division, Zulution.ai (CV Algorithm Intern), 2025
   * Worked on inference optimization for large-scale vision-language generation models, with a focus on quantization techniques for efficient deployment.
-* Engineering Research Center for Smart City Planning, Ministry of Education of P.R.China, 2024
+* Engineering Research Center for Smart City Planning, Ministry of Education of PRC, 2024
   * Participated in the National Key R&D Program of China (2020YFB2103905) on resilient urban intelligent planning and simulation.
 * Gait Recognition via Silhouette Generation, 2023
   * Explored generative modeling techniques to enhance gait recognition performance using silhouette-based representations.
