@@ -9,8 +9,8 @@ redirect_from:
 
 Education
 ======
-* M.S. in Computer Science, Tongji University, Present
-* B.E. in Software Engineering, Tongji University, 2025
+* M.Phil. in Computer Science, Tongji University, Present
+* B.Eng. in Software Engineering, Tongji University, 2025
 * Exchange Student at School of Computation, Information and Technology, Technical University of Munich (TUM), 2024/25  
 
 
