@@ -10,4 +10,4 @@ The platform supports merchant and product management, consumer-side browsing, p
 
 The project was collaboratively developed by Shiteng Wang, Junxiao Lyu, Guanya Wu, Hengxin Li, Xiang Zhang, Chengzhi Shi, Jiaheng Fu, Yu Gao, and myself, and was awarded an A grade.
 
-Project link: https://github.com/BillHan01/2023-DB-Project
+[Project link](https://github.com/BillHan01/2023-DB-Project)
