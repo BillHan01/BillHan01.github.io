@@ -1,10 +1,10 @@
 {
-  "name": "academic-pages",
-  "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "name": "billhan01-github-io",
+  "version": "1.0.0",
+  "description": "Build scripts for Jiarui Han's personal website",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
+    "url": "https://github.com/BillHan01/BillHan01.github.io"
   },
   "keywords": [
     "jekyll",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/academicpages/academicpages.github.io/issues"
   },
-  "homepage": "https://github.com/academicpages/academicpages.github.io",
+  "homepage": "https://billhan01.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },

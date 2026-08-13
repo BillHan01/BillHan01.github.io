@@ -41,3 +41,36 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* Language selector and localized content */
+.language-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0 0.5rem;
+
+  select {
+    max-width: 8.5rem;
+    padding: 0.25rem 1.4rem 0.25rem 0.35rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 0.25rem;
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+    font: inherit;
+    cursor: pointer;
+  }
+}
+
+.i18n-section-title {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+[data-lang][hidden] {
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .language-picker i { display: none; }
+  .language-picker select { max-width: 6.8rem; }
+}

@@ -18,15 +18,19 @@ main:
   #   url: /teaching/    
 
   - title: "CV"
+    i18n_key: "nav.cv"
     url: /cv/
 
   - title: "Portfolio"
+    i18n_key: "nav.portfolio"
     url: /portfolio/
         
   - title: "Blog Posts"
+    i18n_key: "nav.posts"
     url: /year-archive/
 
   - title: "Statistics"
+    i18n_key: "nav.statistics"
     url: /statistics/
     
   # - title: "CV"

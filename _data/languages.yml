@@ -1,0 +1,87 @@
+zh-CN:
+  label: "简体中文"
+  html_lang: "zh-CN"
+  site_title: "韩嘉睿的个人主页"
+  nav:
+    cv: "简历"
+    portfolio: "项目"
+    posts: "博客文章"
+    statistics: "统计"
+  profile:
+    bio: "计算机科学与技术专业硕士研究生"
+    location: "中国上海"
+    employer: "同济大学"
+    follow: "关注"
+    email: "电子邮箱"
+  home:
+    about: "关于我"
+    intro: '你好，我是韩嘉睿（英文名发音：JEE-ah-ray HAHN），现为同济大学计算机科学与技术学院硕士一年级学生。我在 <a href="https://admis-tongji.github.io/">ADMIS 实验室</a>学习，导师为<a href="https://cs.tongji.edu.cn/info/1061/2814.htm">关佶红教授</a>和<a href="https://cs.tongji.edu.cn/info/1063/2826.htm">李文根副教授</a>。我的研究兴趣主要集中在<strong>多模态学习</strong>，尤其关注<strong>跨模态数据对齐</strong>及其在<strong>遥感</strong>领域的应用。在此之前，我于同济大学软件学院获得工学学士学位。'
+    contact: "联系方式"
+    address_label: "地址"
+    address: "中国上海市曹安公路4800号，201804"
+
+zh-TW:
+  label: "繁體中文"
+  html_lang: "zh-TW"
+  site_title: "韓嘉睿的個人主頁"
+  nav:
+    cv: "履歷"
+    portfolio: "專案"
+    posts: "部落格文章"
+    statistics: "統計"
+  profile:
+    bio: "計算機科學與技術專業碩士研究生"
+    location: "中國上海"
+    employer: "同濟大學"
+    follow: "關注"
+    email: "電子郵件"
+  home:
+    about: "關於我"
+    intro: '你好，我是韓嘉睿（英文名發音：JEE-ah-ray HAHN），現為同濟大學計算機科學與技術學院碩士一年級學生。我在 <a href="https://admis-tongji.github.io/">ADMIS 實驗室</a>學習，導師為<a href="https://cs.tongji.edu.cn/info/1061/2814.htm">關佶紅教授</a>和<a href="https://cs.tongji.edu.cn/info/1063/2826.htm">李文根副教授</a>。我的研究興趣主要集中在<strong>多模態學習</strong>，尤其關注<strong>跨模態資料對齊</strong>及其在<strong>遙感</strong>領域的應用。在此之前，我於同濟大學軟體學院獲得工學學士學位。'
+    contact: "聯絡方式"
+    address_label: "地址"
+    address: "中國上海市曹安公路4800號，201804"
+
+en:
+  label: "English"
+  html_lang: "en"
+  site_title: "Jiarui Han's Personal Page"
+  nav:
+    cv: "CV"
+    portfolio: "Portfolio"
+    posts: "Blog Posts"
+    statistics: "Statistics"
+  profile:
+    bio: "Master's Student in Computer Science"
+    location: "Shanghai, P.R. China"
+    employer: "Tongji University"
+    follow: "Follow"
+    email: "Email"
+  home:
+    about: "About Me"
+    intro: 'Hi, I’m Jiarui Han (pronounced: JEE-ah-ray HAHN), a first-year Master’s student at the School of Computer Science and Technology of Tongji University. I work in the <a href="https://admis-tongji.github.io/">ADMIS Lab</a> under the supervision of <a href="https://cs.tongji.edu.cn/info/1061/2814.htm">Prof. Jihong Guan</a> and <a href="https://cs.tongji.edu.cn/info/1063/2826.htm">Assoc. Prof. Wengen Li</a>. My research interests broadly lie in <strong>multimodal learning</strong>, with a particular focus on <strong>cross-modal data alignment</strong> and its applications in the <strong>remote sensing</strong> domain. Prior to this, I earned my Bachelor of Engineering degree from the School of Software Engineering at Tongji University.'
+    contact: "Contact Me"
+    address_label: "Address"
+    address: "4800 Cao’an Highway, Shanghai, P.R. China 201804"
+
+de:
+  label: "Deutsch"
+  html_lang: "de"
+  site_title: "Jiarui Hans persönliche Webseite"
+  nav:
+    cv: "Lebenslauf"
+    portfolio: "Projekte"
+    posts: "Blogbeiträge"
+    statistics: "Statistik"
+  profile:
+    bio: "Masterstudent der Informatik"
+    location: "Shanghai, China"
+    employer: "Tongji-Universität"
+    follow: "Folgen"
+    email: "E-Mail"
+  home:
+    about: "Über mich"
+    intro: 'Hallo, ich bin Jiarui Han (ausgesprochen: JEE-ah-ray HAHN) und studiere im ersten Jahr des Masterstudiengangs an der Fakultät für Informatik und Technologie der Tongji-Universität. Ich arbeite im <a href="https://admis-tongji.github.io/">ADMIS Lab</a> unter der Betreuung von <a href="https://cs.tongji.edu.cn/info/1061/2814.htm">Prof. Jihong Guan</a> und <a href="https://cs.tongji.edu.cn/info/1063/2826.htm">Prof. Wengen Li</a>. Meine Forschungsinteressen liegen im Bereich des <strong>multimodalen Lernens</strong>, insbesondere bei der <strong>modalitätsübergreifenden Datenausrichtung</strong> und deren Anwendung in der <strong>Fernerkundung</strong>. Zuvor erwarb ich meinen Bachelor of Engineering an der Fakultät für Software Engineering der Tongji-Universität.'
+    contact: "Kontakt"
+    address_label: "Adresse"
+    address: "Cao’an Highway 4800, Shanghai, China 201804"

@@ -1,0 +1,2 @@
+{% assign path_parts = include.key | split: "." %}
+<span data-i18n="{{ include.key }}">{% for language in site.data.languages %}{% assign value = language[1] %}{% for part in path_parts %}{% assign value = value[part] %}{% endfor %}<span data-lang="{{ language[0] }}"{% unless language[0] == "en" %} hidden{% endunless %}>{{ value }}</span>{% endfor %}</span>

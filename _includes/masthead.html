@@ -6,15 +6,24 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{% include i18n-text.html key="site_title" %}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{% if link.i18n_key %}{% include i18n-text.html key=link.i18n_key %}{% else %}{{ link.title }}{% endif %}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item persist language-picker">
+            <label class="visually-hidden" for="language-select">Language</label>
+            <i class="fas fa-fw fa-language" aria-hidden="true"></i>
+            <select id="language-select" aria-label="Language">
+              {% for language in site.data.languages %}
+                <option value="{{ language[0] }}"{% if language[0] == "en" %} selected{% endif %}>{{ language[1].label }}</option>
+              {% endfor %}
+            </select>
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
