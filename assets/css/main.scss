@@ -70,6 +70,44 @@
   display: none !important;
 }
 
+.cv-language-switcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+
+  button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--global-border-color);
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    cursor: pointer;
+
+    &:first-child { border-radius: 0.3rem 0 0 0.3rem; }
+    &:last-child {
+      margin-left: -1px;
+      border-radius: 0 0.3rem 0.3rem 0;
+    }
+    &.is-active {
+      background: var(--global-base-color);
+      color: #fff;
+    }
+  }
+}
+
+.cv-version {
+  h2 {
+    margin-top: 1.8em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  > h2:first-child { margin-top: 0; }
+  li { margin-bottom: 0.45em; }
+}
+
+[data-cv-version][hidden] {
+  display: none !important;
+}
+
 @media screen and (max-width: 600px) {
   .language-picker i { display: none; }
   .language-picker select { max-width: 6.8rem; }

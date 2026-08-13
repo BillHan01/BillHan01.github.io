@@ -53,6 +53,28 @@
     }
   }
 
+  function preferredCvLanguage(siteLanguage) {
+    var stored;
+    try { stored = window.localStorage.getItem("cv-language"); } catch (error) { stored = null; }
+    if (stored === "zh" || stored === "en") return stored;
+    return siteLanguage && siteLanguage.indexOf("zh") === 0 ? "zh" : "en";
+  }
+
+  function setCvLanguage(language, remember) {
+    if (language !== "zh" && language !== "en") language = "en";
+    document.querySelectorAll("[data-cv-version]").forEach(function (version) {
+      version.hidden = version.getAttribute("data-cv-version") !== language;
+    });
+    document.querySelectorAll("[data-cv-language]").forEach(function (button) {
+      var active = button.getAttribute("data-cv-language") === language;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    if (remember) {
+      try { window.localStorage.setItem("cv-language", language); } catch (error) {}
+    }
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     var select = document.getElementById("language-select");
     if (select) {
@@ -63,6 +85,16 @@
         setLanguage(this.getAttribute("data-language-option"), true);
       });
     });
-    setLanguage(initialLanguage(), false);
+    var language = initialLanguage();
+    setLanguage(language, false);
+
+    if (document.querySelector("[data-cv-version]")) {
+      setCvLanguage(preferredCvLanguage(language), false);
+      document.querySelectorAll("[data-cv-language]").forEach(function (button) {
+        button.addEventListener("click", function () {
+          setCvLanguage(this.getAttribute("data-cv-language"), true);
+        });
+      });
+    }
   });
 })();
