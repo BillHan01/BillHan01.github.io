@@ -45,6 +45,12 @@ redirect_from:
       </ul>
     </li>
     <li>
+      <strong>索拉透平公司</strong>，企业文档智能检索项目，算法开发 <strong>2026.04 – 至今</strong>
+      <ul>
+        <li>面向燃气轮机及进气系统相关企业文档，基于 Tianshu 构建多模态文档解析与大模型直接召回流程，在客户数据集上实现 92.3% 的相关内容命中率。</li>
+      </ul>
+    </li>
+    <li>
       <strong>西门子公司</strong>，工业文档解析与智能检索项目，算法开发 <strong>2026.02 – 至今</strong>
       <ul>
         <li>负责多模态文档检索算法开发。构建基于 Qdrant 向量数据库与 LLM 精排的工业文档检索流程，在客户数据集上实现 Top-1 准确率 70%、Top-10 准确率 92%。</li>
@@ -131,6 +137,12 @@ redirect_from:
       <strong>COSCO SHIPPING Lines (Xiamen)</strong> — Backend Developer <strong>Jul. 2026 – Present</strong>
       <ul>
         <li>Developed backend services for the Xiamen container shipping agency management system. Designed and maintained MySQL databases, implemented backend functionality in Java, and adapted the system to a domestically developed technology stack to support stable operation and continuous feature delivery.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Solar Turbines</strong>, Enterprise Document Intelligent Retrieval Project — Algorithm Developer  <strong>Apr. 2026 – Present</strong>
+      <ul>
+        <li>Built a multimodal document-parsing and direct LLM retrieval pipeline with Tianshu for enterprise documents related to gas turbines and air-inlet systems, achieving a 92.3% relevant-content hit rate on the client dataset.</li>
       </ul>
     </li>
     <li>
