@@ -14,6 +14,6 @@ redirect_from:
 <h2 class="i18n-section-title">{% include i18n-text.html key="home.contact" %}</h2>
 
 <ul>
-  <li>{% include i18n-text.html key="profile.email" %}: <a href="mailto:tjbillhan@gmail.com">tjbillhan@gmail.com</a></li>
+  <li>{% include i18n-text.html key="profile.email" %}: <a href="mailto:billhan@tongji.edu.cn">billhan@tongji.edu.cn</a></li>
   <li>{% include i18n-text.html key="home.address_label" %}: {% include i18n-text.html key="home.address" %}</li>
 </ul>

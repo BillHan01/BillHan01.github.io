@@ -7,11 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<div class="cv-language-switcher" role="group" aria-label="简历语言 / CV language">
-  <button type="button" data-cv-language="zh" aria-pressed="false">中文</button>
-  <button type="button" data-cv-language="en" aria-pressed="true">English</button>
-</div>
-
 <div class="cv-version" data-cv-version="zh" lang="zh-CN" hidden>
   <h2>教育经历</h2>
   <ul>

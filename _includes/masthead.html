@@ -17,12 +17,14 @@
           {% endfor %}
           <li class="masthead__menu-item persist language-picker">
             <label class="visually-hidden" for="language-select">Language</label>
-            <i class="fas fa-fw fa-language" aria-hidden="true"></i>
-            <select id="language-select" aria-label="Language">
-              {% for language in site.data.languages %}
-                <option value="{{ language[0] }}"{% if language[0] == "en" %} selected{% endif %}>{{ language[1].label }}</option>
-              {% endfor %}
-            </select>
+            <div class="language-picker__control">
+              <span class="language-picker__icon"><i class="fas fa-fw fa-language" aria-hidden="true"></i></span>
+              <select id="language-select" aria-label="Language">
+                {% for language in site.data.languages %}
+                  <option value="{{ language[0] }}"{% if language[0] == "en" %} selected{% endif %}>{{ language[1].label }}</option>
+                {% endfor %}
+              </select>
+            </div>
           </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
