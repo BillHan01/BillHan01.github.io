@@ -8,20 +8,6 @@ redirect_from:
 ---
 
 <article class="cv-resume" data-cv-version="zh" lang="zh-CN" hidden>
-<header class="cv-header">
-  <div>
-    <p class="cv-kicker">个人简历</p>
-    <h1>韩嘉睿</h1>
-    <p class="cv-headline">计算机科学与技术硕士生 · 多模态检索 / RAG</p>
-  </div>
-  <div class="cv-contact" aria-label="联系方式">
-    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-    <span>上海，中国</span>
-    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
-  </div>
-</header>
-
 <div class="cv-version">
   <h2>教育背景</h2>
   <ul>
@@ -90,8 +76,8 @@ redirect_from:
 
   <h2>教学经历</h2>
   <ul>
-    <li><strong>助教</strong>，数据库系统原理（课程号：CST240304），2026 年春季<br><em>同济大学计算机科学与技术学院</em></li>
-    <li><strong>助教</strong>，本科毕业设计，2025 年秋季<br><em>同济大学计算机科学与技术学院</em></li>
+    <li><strong>助教</strong>数据库系统原理（课程号：CST240304），2026 年春季<br><em>同济大学计算机科学与技术学院</em></li>
+    <li><strong>助教</strong>本科毕业实训，2025 年秋季<br><em>同济大学计算机科学与技术学院</em></li>
   </ul>
 
   <h2>学生工作</h2>
@@ -102,28 +88,14 @@ redirect_from:
 
   <h2>技能特长</h2>
   <ul>
-    <li><strong>编程语言：</strong>C/C++、Python、Java</li>
-    <li><strong>技术与框架：</strong>PyTorch、RAG、LaTeX</li>
-    <li><strong>语言技能：</strong>普通话、粤语、英语（六级 568 分，GRE 321 分）、德语（六级“优秀”）</li>
+    <li><strong>编程语言</strong>C/C++、Python、Java</li>
+    <li><strong>技术与框架</strong>PyTorch、RAG、LaTeX</li>
+    <li><strong>语言技能</strong>普通话、粤语、英语（六级 568 分，GRE 321 分）、德语（六级“优秀”）</li>
   </ul>
 </div>
 </article>
 
 <article class="cv-resume" data-cv-version="en" lang="en">
-<header class="cv-header">
-  <div>
-    <p class="cv-kicker">CURRICULUM VITAE</p>
-    <h1>Jiarui Han</h1>
-    <p class="cv-headline">M.Sc. Student in Computer Science · Multimodal Retrieval / RAG</p>
-  </div>
-  <div class="cv-contact" aria-label="Contact details">
-    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-    <span>Shanghai, China</span>
-    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
-  </div>
-</header>
-
 <div class="cv-version">
   <h2>Education</h2>
   <ul>
@@ -147,45 +119,45 @@ redirect_from:
   <h2>Projects &amp; Internships</h2>
   <ul>
     <li>
-      <strong>Multimodal Document Parsing and Intelligent Retrieval for Industrial Scenarios</strong> · Siemens (China) <strong>Feb. 2026 – Present</strong>
-      <ul><li>Developed multimodal document-retrieval algorithms and built an industrial document-retrieval pipeline using the Qdrant vector database and LLM-based reranking, achieving 70% Top-1 accuracy and 92% Top-10 accuracy on the client dataset.</li></ul>
+      <strong>Multimodal RAG for Industrial Applications</strong> · Siemens (China) <strong>Feb. 2026 – Present</strong>
+      <ul><li>Develop multimodal document retrieval algorithms, including a pipeline combining Qdrant vector search with LLM-based reranking that achieved 70% top-1 and 92% top-10 retrieval accuracy on the client's dataset.</li></ul>
     </li>
     <li>
-      <strong>Xiamen COSCO Shipping Agency Integrated Management System</strong> · China COSCO SHIPPING Corporation <strong>Aug. 2026 – Oct. 2026</strong>
-      <ul><li>Developed a domestically compatible shipping-agency management system for a state-owned enterprise. Used AI-assisted programming to deliver business features, integration testing, and issue fixes; completed development and passed the localization-replacement acceptance process within two months.</li></ul>
+      <strong>Shipping Agency Management System</strong> · COSCO SHIPPING<strong>Aug. 2026 – Oct. 2026</strong>
+      <ul><li>Developed a shipping agency management system. Used AI-assisted coding to implement business features and resolve defects, completing development and passing acceptance testing within two months.</li></ul>
     </li>
     <li>
-      <strong>VE Knowledge Graph and Failure Mode Analysis Platform</strong> · NIO <strong>Dec. 2025 – Mar. 2026</strong>
-      <ul><li>Contributed to the development of a RAG system and built its internal enterprise knowledge-retrieval module. Designed an RRF-based multi-source hybrid retrieval algorithm that integrates vector databases, knowledge graphs, and other data sources to support efficient question answering.</li></ul>
+      <strong>Failure Mode Analysis Platform</strong> · NIO (Shanghai) <strong>Dec. 2025 – Mar. 2026</strong>
+      <ul><li>Designed a hybrid retrieval approach to combine results from vector databases, knowledge graphs, and other sources, supporting efficient enterprise question answering.</li></ul>
     </li>
     <li>
-      <strong>Open-Source Data Event Analysis and Assessment Platform</strong> · GEOVIS <strong>Jul. 2025 – Dec. 2025</strong>
-      <ul><li>Developed and deployed backend algorithms for news-event trend forecasting. Proposed an emotion-aware, multi-stage prediction algorithm based on Qwen and Transformer, achieving 93% accuracy in event-trend classification.</li></ul>
+      <strong>Event Analysis and Assessment Platform</strong> · GEOVIS Technology <strong>Jul. 2025 – Dec. 2025</strong>
+      <ul><li>Developed algorithms for forecasting news event trends. Designed a sentiment-aware, multi-stage prediction method combining Qwen LLM, achieving 93% accuracy in event trend classification.</li></ul>
     </li>
     <li>
-      <strong>Computer Vision Algorithm Intern, SORA Model Division</strong> · Zulution.AI <strong>Apr. 2025 – Jun. 2025</strong>
-      <ul><li>Contributed to inference-acceleration infrastructure for large-scale video generation models and conducted research and experiments on quantization algorithms. Implemented a low-bit inference pipeline for the Wanx model framework, reducing SORA model inference time by 12%.</li></ul>
+      <strong>SORA Model Team Intern</strong> · Zulution.AI <strong>Apr. 2025 – Jun. 2025</strong>
+      <ul><li>Contributed to inference acceleration infrastructure for video generation models. Implemented a low-bit inference pipeline within the Wanx model framework, reducing SORA model inference time by 12%.</li></ul>
     </li>
     <li>
-      <strong>Data-Driven Urban Resilience Assessment System</strong> · Shanghai Undergraduate Innovation and Entrepreneurship Training Program <strong>Apr. 2023 – May 2024</strong>
-      <ul><li>Led the development of a platform for a subproject of the National Key R&amp;D Program, focusing on modeling urban risk scenarios such as floods and infectious diseases and building simulation applications. Filed one patent; the resulting system was deployed and demonstrated by spatial-planning departments in 17 cities across China.</li></ul>
+      <strong>Urban Resilience Assessment System</strong> · Tongji University <strong>Apr. 2023 – May 2024</strong>
+      <ul><li>Led a team in developing a platform under China's National Key R&D Program, with responsibility for modeling urban risk scenarios. The system was deployed in 17 cities across China.</li></ul>
     </li>
   </ul>
 
   <h2>Competition Awards</h2>
   <ul>
     <li>
-      14th “Challenge Cup” Shanghai Student Entrepreneurship Competition · <strong>Gold Award (First Project Lead)</strong> <strong>Jun. 2024</strong>
+      14th “Challenge Cup” Entrepreneurship Competition · <strong>Gold Award (First Project Lead)</strong> <strong>Jun. 2024</strong>
       <ul>
-        <li>Project: Zhuhui Technology — A Pioneer in Intelligent Planning for Resilient Cities</li>
-        <li>As project lead, coordinated the business plan, product development, resource partnerships, and pitch process, taking the project from its technical solution to commercial presentation.</li>
+        <li>Project: Zhuhui Technology — Intelligent Planning for Resilient Cities</li>
+        <li>Led business planning, product development, stakeholder coordination, and pitch presentations, translating the technical solution into a commercialization plan.</li>
       </ul>
     </li>
     <li>
-      “Higher Education Press Cup” National Undergraduate Mathematical Modeling Competition · <strong>Second Prize, Shanghai Division</strong> <strong>Nov. 2022</strong>
+      CUMCM Mathematical Modeling Competition · <strong>Second Prize, Shanghai Division</strong> <strong>Nov. 2022</strong>
       <ul>
-        <li>Paper: Glass Composition Analysis and Identification Based on Machine Learning Classification Models</li>
-        <li>Handled data preprocessing and feature engineering; designed random-forest-based models to predict glass composition and subtypes.</li>
+        <li>Paper: Analysis and Identification of Glass Composition Using Machine Learning Classification Models</li>
+        <li>Performed data preprocessing and feature engineering, and developed random forest and other machine learning models to predict glass types and subtypes from chemical composition.</li>
       </ul>
     </li>
   </ul>
