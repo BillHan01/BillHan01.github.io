@@ -15,10 +15,10 @@ zh-CN:
     email: "电子邮箱"
   home:
     about: "关于我"
-    intro: '我是韩嘉睿（英文名发音：JEE-ah-ray HAHN），现为同济大学计算机科学与技术学院硕士二年级学生。我在 <a href="https://admis-tongji.github.io/">ADMIS 实验室</a>学习，导师为<a href="https://cs.tongji.edu.cn/info/1065/3472.htm">关佶红教授</a>和<a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">李文根副教授</a>。我的研究兴趣主要集中在<strong>多模态检索</strong>，尤其关注<strong>交互式跨模态检索</strong>及多模态 RA 在<strong>工业场景</strong>的应用。在此之前，我于同济大学软件学院获得工学学士学位。'
+    intro: '我是韩嘉睿（英文名发音：JEE-ah-ray HAHN），现于同济大学计算机科学与技术学院攻读硕士学位。我在 <a href="https://admis-tongji.github.io/">ADMIS 实验室</a>，导师为<a href="https://cs.tongji.edu.cn/info/1065/3472.htm">关佶红教授</a>和<a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">李文根副教授</a>。我的研究兴趣主要集中在<strong>多模态检索</strong>，尤其关注<strong>交互式检索</strong>及<strong>多模态 RAG 在工业场景的应用</strong>。在此之前，我于同济大学取得工学学士学位。'
     contact: "联系方式"
     address_label: "地址"
-    address: "中国上海市曹安公路4800号，201804"
+    address: "中国上海市嘉定区曹安公路4800号，201804"
 
 zh-TW:
   label: "繁體中文"
@@ -26,8 +26,8 @@ zh-TW:
   site_title: "韓嘉睿的個人主頁"
   nav:
     cv: "履歷"
-    portfolio: "專案"
-    posts: "部落格文章"
+    portfolio: "項目"
+    posts: "部落格"
     statistics: "統計"
   profile:
     bio: "計算機科學與技術專業碩士研究生"
@@ -37,10 +37,10 @@ zh-TW:
     email: "電子郵件"
   home:
     about: "關於我"
-    intro: '我是韓嘉睿（英文名發音：JEE-ah-ray HAHN），現為同濟大學計算機科學與技術學院碩士二年級學生。我在 <a href="https://admis-tongji.github.io/">ADMIS 實驗室</a>學習，導師為<a href="https://cs.tongji.edu.cn/info/1065/3472.htm">關佶紅教授</a>和<a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">李文根副教授</a>。我的研究興趣主要集中在<strong>多模態檢索</strong>，尤其關注<strong>互動式跨模態檢索</strong>及多模態 RA 在<strong>工業場景</strong>的應用。在此之前，我於同濟大學軟體學院獲得工學學士學位。'
+    intro: '我是韓嘉睿（英文名發音：JEE-ah-ray HAHN），現於同濟大學計算機科學與技術學院攻讀碩士學位。我在 <a href="https://admis-tongji.github.io/">ADMIS 實驗室</a>，導師為<a href="https://cs.tongji.edu.cn/info/1065/3472.htm">關佶紅教授</a>和<a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">李文根副教授</a>。我的研究興趣主要集中在<strong>多模態檢索</strong>，尤其關注<strong>互動式檢索</strong>及<strong>多模態 RAG 在工業場景的應用</strong>。在此之前，我於同濟大學獲得工學學士學位。'
     contact: "聯絡方式"
     address_label: "地址"
-    address: "中國上海市曹安公路4800號，201804"
+    address: "中國上海市嘉定區曹安公路4800號，201804"
 
 en:
   label: "English"
@@ -59,7 +59,7 @@ en:
     email: "Email"
   home:
     about: "About Me"
-    intro: 'I’m Jiarui Han (pronounced: JEE-ah-ray HAHN), a second-year Master’s student at the School of Computer Science and Technology of Tongji University. I study in the <a href="https://admis-tongji.github.io/">ADMIS Lab</a> under the supervision of <a href="https://cs.tongji.edu.cn/info/1065/3472.htm">Prof. Jihong Guan</a> and <a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">Assoc. Prof. Wengen Li</a>. My research interests center on <strong>multimodal retrieval</strong>, particularly <strong>interactive cross-modal retrieval</strong> and applications of multimodal RA in <strong>industrial settings</strong>. Prior to this, I earned my Bachelor of Engineering degree from the School of Software Engineering at Tongji University.'
+    intro: 'Hello! I’m Jiarui Han (pronounced: JEE-ah-ray HAHN), a Master’s student at the School of Computer Science and Technology of Tongji University. I study in the <a href="https://admis-tongji.github.io/">ADMIS Lab</a> under the supervision of <a href="https://cs.tongji.edu.cn/info/1065/3472.htm">Prof. Jihong Guan</a> and <a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">Assoc. Prof. Wengen Li</a>. My research interests center on <strong>multimodal retrieval</strong>, particularly <strong>interactive retrieval</strong> and <strong>applications of multimodal RAG in industrial scenario</strong>. Prior to this, I earned my Bachelor of Engineering degree from Tongji University.'
     contact: "Contact Me"
     address_label: "Address"
     address: "4800 Cao’an Highway, Shanghai, P.R. China 201804"
@@ -81,7 +81,7 @@ de:
     email: "E-Mail"
   home:
     about: "Über mich"
-    intro: 'Hallo, ich bin Jiarui Han (ausgesprochen: JEE-ah-ray HAHN) und studiere im zweiten Jahr des Masterstudiengangs an der Fakultät für Informatik und Technologie der Tongji-Universität. Ich arbeite im <a href="https://admis-tongji.github.io/">ADMIS Lab</a> unter der Betreuung von <a href="https://cs.tongji.edu.cn/info/1065/3472.htm">Prof. Jihong Guan</a> und <a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">Prof. Wengen Li</a>. Meine Forschungsinteressen liegen im Bereich der <strong>multimodalen Suche</strong>, insbesondere der <strong>interaktiven modalitätsübergreifenden Suche</strong> und der Anwendung multimodaler RA in <strong>industriellen Szenarien</strong>. Zuvor erwarb ich meinen Bachelor of Engineering an der Fakultät für Software Engineering der Tongji-Universität.'
+    intro: 'Hallo, ich bin Jiarui Han (ausgesprochen: JEE-ah-ray HAHN) und studiere im zweiten Jahr des Masterstudiengangs an der Fakultät für Informatik der Tongji-Universität. Ich arbeite im <a href="https://admis-tongji.github.io/">ADMIS Lab</a> unter der Betreuung von <a href="https://cs.tongji.edu.cn/info/1065/3472.htm">Prof. Jihong Guan</a> und <a href="https://faculty.tongji.edu.cn/liwengen/zh_CN/index/96065/list/index.htm">Prof. Wengen Li</a>. Meine Forschungsinteressen liegen im Bereich der <strong>multimodalen Suche</strong>, insbesondere der <strong>interaktiven Suche</strong> und <strong>der Anwendung multimodaler RAG in industriellen Szenarien</strong>. Zuvor erwarb ich meinen Bachelor of Engineering an der Tongji-Universität.'
     contact: "Kontakt"
     address_label: "Adresse"
-    address: "Cao’an Highway 4800, Shanghai, China 201804"
+    address: "Cao’an Highway 4800, Shanghai, VR China 201804"

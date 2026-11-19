@@ -2,12 +2,27 @@
 layout: archive
 title: ""
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
-<div class="cv-version" data-cv-version="zh" lang="zh-CN" hidden>
+<article class="cv-resume" data-cv-version="zh" lang="zh-CN" hidden>
+<header class="cv-header">
+  <div>
+    <p class="cv-kicker">个人简历</p>
+    <h1>韩嘉睿</h1>
+    <p class="cv-headline">计算机科学与技术硕士生 · 多模态检索 / RAG</p>
+  </div>
+  <div class="cv-contact" aria-label="联系方式">
+    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <span>上海，中国</span>
+    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+  </div>
+</header>
+
+<div class="cv-version">
   <h2>教育背景</h2>
   <ul>
     <li>
@@ -92,8 +107,24 @@ redirect_from:
     <li><strong>语言技能：</strong>普通话、粤语、英语（六级 568 分，GRE 321 分）、德语（六级“优秀”）</li>
   </ul>
 </div>
+</article>
 
-<div class="cv-version" data-cv-version="en" lang="en">
+<article class="cv-resume" data-cv-version="en" lang="en">
+<header class="cv-header">
+  <div>
+    <p class="cv-kicker">CURRICULUM VITAE</p>
+    <h1>Jiarui Han</h1>
+    <p class="cv-headline">M.Sc. Student in Computer Science · Multimodal Retrieval / RAG</p>
+  </div>
+  <div class="cv-contact" aria-label="Contact details">
+    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <span>Shanghai, China</span>
+    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+  </div>
+</header>
+
+<div class="cv-version">
   <h2>Education</h2>
   <ul>
     <li>
@@ -178,3 +209,4 @@ redirect_from:
     <li><strong>Languages:</strong> Mandarin Chinese, Cantonese, English (CET-6: 568; GRE: 321), German (CET-6: Excellent)</li>
   </ul>
 </div>
+</article>
